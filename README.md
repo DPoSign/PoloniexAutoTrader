@@ -1,26 +1,26 @@
 # Poloniex Auto Trader
 
-<!-- Replace this badge with your own-->
-[![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)
-
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
-or get the [CI build](http://vsixgallery.com/extension/{ID}/).
-
 ---------------------------------------
 
-{Description}
+A WPF dashboard for running automated trading strategies on Poloniex Exchange.
 
-See the [change log](CHANGELOG.md) for changes and road map.
+### Usage
+** Dummy API key loaded to get app running **
+1. Open API key entry window, enter you own API keys from Poloniex
+2. Save keys and restart app
 
-## Features
+![API Keys](https://github.com/ColossusFX/PoloniexAutoTrader/blob/master/Screenshot_1.jpg?raw=true "API Key Entry")
 
-- Feature 1
-- Feature 2
-  - Sub feature
 
-### Feature 1
-Describe feature 1. Add screenshots/code samples etc.
+3. Select Market Period, Currency Pair and trade size in BTC
+4. Click start
+** Each algo is then added to the datagrid **
+5. To stop an algo, click on the list and press the stop button.
+
+## Strategies
+- 5 Built in strategies
+- Dispatcher timer for running strategies at Market Period intervals
+- Output data to window
 
 ### Feature 2
 Describe feature 2. Add screenshots/code samples etc.
@@ -31,12 +31,6 @@ Describe sub feature. Add screenshots/code samples etc.
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
 if you want to contribute to this project.
-
-For cloning and building this project yourself, make sure
-to install the
-[Extensibility Tools 2015](https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6)
-extension for Visual Studio which enables some features
-used by this project.
 
 ## License
 [Apache 2.0](LICENSE)
