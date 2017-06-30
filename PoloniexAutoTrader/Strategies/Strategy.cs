@@ -52,8 +52,8 @@ namespace PoloniexAutoTrader
             dispatcherTimer = new SmartDispatcherTimer();
             dispatcherTimer.IsReentrant = false;
             //Test interval
-            dispatcherTimer.Interval = TimeSpan.FromSeconds(10);
-            //dispatcherTimer.Interval = TimeSpan.FromSeconds((int)marketSeries);
+            //dispatcherTimer.Interval = TimeSpan.FromSeconds(10);
+            dispatcherTimer.Interval = TimeSpan.FromSeconds((int)marketSeries);
             
         }
         #endregion
