@@ -5,7 +5,7 @@
 A WPF dashboard for running automated trading strategies on Poloniex Exchange.
 This is tested and working, but some things have been done to correct async methods from getting incorrect nonce from API.
 
-### Usage
+# Usage
 ** Dummy API key loaded to get app running **
 1. Open API key entry window, enter you own API keys from Poloniex
 2. Save keys and restart app
