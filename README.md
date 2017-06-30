@@ -11,22 +11,28 @@ A WPF dashboard for running automated trading strategies on Poloniex Exchange.
 
 ![API Keys](https://github.com/ColossusFX/PoloniexAutoTrader/blob/master/Screenshot_1.jpg?raw=true "API Key Entry")
 
-
 3. Select Market Period, Currency Pair and trade size in BTC
 4. Click start
 ** Each algo is then added to the datagrid **
+
+![Start Algo](https://github.com/ColossusFX/PoloniexAutoTrader/blob/master/Screenshot_2.jpg?raw=true "Start Algo")
+
 5. To stop an algo, click on the list and press the stop button.
+
+![Stop Algo](https://github.com/ColossusFX/PoloniexAutoTrader/blob/master/Screenshot_4.jpg?raw=true "Stop Algo")
 
 ## Strategies
 - 5 Built in strategies
 - Dispatcher timer for running strategies at Market Period intervals
 - Output data to window
 
-### Feature 2
-Describe feature 2. Add screenshots/code samples etc.
+### Features
+- Tick data working
+- All functions for data working
+ - Some changes need to be made for some sync methods
 
-#### Sub feature
-Describe sub feature. Add screenshots/code samples etc.
+#### Dependencies
+Make sure to download, build and reference my fork of PoloniexApi.Net from my repo.
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
