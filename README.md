@@ -15,7 +15,7 @@ A WPF dashboard for running automated trading strategies on Poloniex Exchange.
 4. Click start
 ** Each algo is then added to the datagrid **
 
-![Start Algo](https://github.com/ColossusFX/PoloniexAutoTrader/blob/master/Screenshot_2.jpg?raw=true "Start Algo")
+![Start Algo](https://github.com/ColossusFX/PoloniexAutoTrader/blob/master/Screenshot_3.jpg?raw=true "Start Algo")
 
 5. To stop an algo, click on the list and press the stop button.
 
