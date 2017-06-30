@@ -3,6 +3,7 @@
 ---------------------------------------
 
 A WPF dashboard for running automated trading strategies on Poloniex Exchange.
+This is tested and working, but some things have been done to correct async methods from getting incorrect nonce from API.
 
 ### Usage
 ** Dummy API key loaded to get app running **
@@ -30,6 +31,10 @@ A WPF dashboard for running automated trading strategies on Poloniex Exchange.
 - Tick data working
 - All functions for data working
  - Some changes need to be made for some sync methods
+ 
+ #### To Do
+- Some changes have been made which need testing
+- Moving average cross over strategy to upload
 
 #### Dependencies
 Make sure to download, build and reference my fork of PoloniexApi.Net from my repo.
